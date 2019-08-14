@@ -5,7 +5,8 @@ use app\models\InjectAfter;
 class InjectAfterTest extends PHPUnit_Framework_TestCase {
 	public $injectObj;
 	
-	public function setUp() {
+	public function setUp() 
+	{
 		$this->injectObj = new InjectAfter();
 	}
 
