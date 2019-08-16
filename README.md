@@ -25,9 +25,11 @@ composer install
 Auto load required dependencies in to your project file 
 
 
-    <?php
-	require "vendor/autoload.php";
-	
+```php
+<?php 
+
+require "vendor/autoload.php";
+```
 
 Use InjectAfter Class into your project and create a new object 
 
@@ -42,7 +44,7 @@ use app\models\InjectAfter;
 $injectAfter = new InjectAfter();
 
 ```
-
+Using the function to inject to an Array List
 ```php
 <?php 
 
