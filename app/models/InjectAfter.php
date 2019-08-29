@@ -7,7 +7,7 @@ class InjectAfter {
 	function __construct() {
 
 	}
-	public function doAction(&$array, $afterKey, $newKey, $newValue) 
+	public function doAction($array, $afterKey, $newKey, $newValue) 
 	{
 		if (array_key_exists($afterKey, $array)) {
 			$new = array();
